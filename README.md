@@ -1,3 +1,3 @@
-After the project, you can review the solution here:
+== Slim Record
+= A lite clone of active record.
 
-* https://github.com/appacademy-solutions/active_record_lite/tree/solution
