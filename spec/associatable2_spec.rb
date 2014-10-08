@@ -1,4 +1,4 @@
-require 'slim_record/associatable2'
+require 'associatable2'
 
 describe 'Associatable' do
   before(:each) { DBConnection.reset }

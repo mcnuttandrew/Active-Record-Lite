@@ -1,4 +1,4 @@
-require 'slim_record/sql_object'
+require 'sql_object'
 require 'securerandom'
 
 describe SQLObject do
@@ -107,6 +107,7 @@ describe SQLObject do
 
   describe '#insert' do
     let(:cat) { Cat.new(name: 'Gizmo', owner_id: 1) }
+    
 
     before(:each) { cat.insert }
 

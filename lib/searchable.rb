@@ -5,7 +5,8 @@ module Searchable
   def where(params)
     
     varibs = params.keys.map{|el| el.to_s + " = ?"}.join(" AND ")
-
+    puts varibs
+    puts "klag"
     new_vals = params.values
     results = DBConnection.execute(<<-SQL, *new_vals)
     SELECT

@@ -1,4 +1,4 @@
-require 'slim_record/associatable'
+require 'associatable'
 
 describe 'AssocOptions' do
   describe 'BelongsToOptions' do
